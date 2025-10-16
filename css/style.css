@@ -1,0 +1,30 @@
+* {
+    margin: 0; /* Zerar os espaçamentos externos */
+    padding: 0; /* Zerar os espaçamentos internos */
+    box-sizing: border-box; /* Incluir bordas e padding na largura e altura totais dos elementos */
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
+    color: black;
+   
+}
+.produtos{
+    
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+}
